@@ -1,0 +1,79 @@
+.mainObjectTemplate {
+   display: flex;
+   width: 330px;
+   height: 280px;
+   background-color: #f8edeb;
+   margin-top: 9em;
+   border-radius: 1em;
+   transition-duration: 1s;
+   -webkit-box-shadow: 3px 8px 23px 4px rgba(0,0,0,0.11); 
+   box-shadow: 3px 8px 23px 4px rgba(0,0,0,0.25);
+}
+.mainObjectTemplate:hover {
+   -webkit-box-shadow: 3px 8px 23px 4px rgba(0,0,0,0.34); 
+   box-shadow: 3px 8px 23px 4px rgba(0,0,0,0.34);
+   width: 350px;
+   height: 300px;  
+}
+.mainObjectTemplate:nth-child(1) {
+   margin-top: 5em;
+}
+.mainObjectTemplate:nth-child(2) {
+   margin-top: 5em;
+}
+.mainObjectTemplate:nth-child(3) {
+   margin-top: 5em;
+}
+.carTemplate {
+   max-width:100%;
+   max-height:100%;
+   border-bottom-style: solid;
+   border-color:#e5e5e5;
+   border-width: 3px;
+   border-radius: 1em;
+}
+.availableNow {
+   max-width:50%;
+   max-height:50%;
+   display: flex;
+   margin-left: 0em;
+   margin-top: -19em;
+}
+.seeMore {
+   display: flex;
+   background: linear-gradient(16deg, rgba(215,28,12,1) 16%, rgba(237,4,28,1) 62%);
+   border: none;
+   border-radius: 0.5em;
+   font-family: cursive;
+   color: white;
+   font-size: 1em;
+   width: 7.2em;
+   height: 2.2em;
+   font-size: 1.1em;
+   justify-content: center;
+   align-items: center;
+   margin-left: 59%;
+   cursor: pointer;
+   transition-duration: 1s;
+}
+.seeMore:hover {
+   background: linear-gradient(16deg, rgba(237,4,28,1) 27%, rgba(215,28,12,1) 75%);
+}
+#carPrice {
+   position: absolute;
+   margin-left: 8.5em;
+   margin-top: 2.4em;
+   color: #40916c;
+   font-size:1.05em;
+}
+.carDescription {
+   display: flex;
+   margin-top: 7.8em;
+   height: 5em;
+   max-width: 100%;
+   padding-left: 14px;
+   padding-right: 14px;
+   font-weight: 700;
+   transition-duration: 1s;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
